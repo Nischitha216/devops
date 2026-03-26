@@ -20,3 +20,7 @@ jobs:
 
       - name: step2
         run: echo "this is my step2"
+
+      - name: pipeline break
+        exit 1
+
