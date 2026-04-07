@@ -23,3 +23,9 @@ jobs:
 
       - name: pipeline break
         run: echo "pipeline fixed"
+
+  pull-request:
+     branches : ["main"]
+
+
+
