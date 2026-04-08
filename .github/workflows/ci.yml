@@ -26,6 +26,9 @@ jobs:
       - name: pipeline break
         run: echo "pipeline fixed"
 
+      - name: Build Docker image
+        run: docker build -t devops .
+
 
   
 
